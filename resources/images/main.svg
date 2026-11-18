@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" width="640" height="440">
+  <defs>
+    <linearGradient id="mintBottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#88B7A5"/>
+      <stop offset="50%" stop-color="#A6CFC0"/>
+      <stop offset="100%" stop-color="#76A492"/>
+    </linearGradient>
+    <linearGradient id="blueBottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A2C8E4"/>
+      <stop offset="50%" stop-color="#C8E2F6"/>
+      <stop offset="100%" stop-color="#8BB5D6"/>
+    </linearGradient>
+    <linearGradient id="redCup" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C91426"/>
+      <stop offset="50%" stop-color="#EB2438"/>
+      <stop offset="100%" stop-color="#9E0C1B"/>
+    </linearGradient>
+    <linearGradient id="greenCup" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8AB999"/>
+      <stop offset="50%" stop-color="#AED6BA"/>
+      <stop offset="100%" stop-color="#6F9E7E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mint Tumbler (Back Left) -->
+  <g transform="translate(205, 42)">
+    <rect x="14" y="0" width="44" height="22" rx="6" fill="#6D9B89"/>
+    <path d="M58,6 Q72,6 72,22 Q72,38 58,38" fill="none" stroke="#6D9B89" stroke-width="6"/>
+    <rect x="6" y="22" width="60" height="240" rx="14" fill="url(#mintBottle)"/>
+    <text x="36" y="150" transform="rotate(-90 36,150)" fill="#ffffff" opacity="0.55" font-family="Arial" font-size="11" font-weight="bold" letter-spacing="3">STARBUCKS</text>
+  </g>
+
+  <!-- Pastel Blue Jug (Back Right) -->
+  <g transform="translate(330, 56)">
+    <rect x="22" y="0" width="46" height="20" rx="5" fill="#DCEBF7"/>
+    <path d="M22,12 Q4,12 4,40 Q4,68 22,68" fill="none" stroke="#DCEBF7" stroke-width="7"/>
+    <rect x="10" y="20" width="70" height="225" rx="18" fill="url(#blueBottle)"/>
+    <text x="45" y="145" transform="rotate(-90 45,145)" fill="#4D7899" opacity="0.6" font-family="Arial" font-size="11" font-weight="bold" letter-spacing="3">STARBUCKS</text>
+  </g>
+
+  <!-- Cream Ribbon Tumbler (Front Left-Center) -->
+  <g transform="translate(135, 130)">
+    <path d="M12,18 L78,18 L72,195 C72,203 64,208 45,208 C26,208 18,203 18,195 Z" fill="#F8F3EC"/>
+    <rect x="6" y="8" width="78" height="16" rx="6" fill="#D91E2E"/>
+    <!-- Bow -->
+    <path d="M45,8 C25,-12 12,4 38,12 Z" fill="#F5E6D8"/>
+    <path d="M45,8 C65,-12 78,4 52,12 Z" fill="#F5E6D8"/>
+    <circle cx="45" cy="10" r="6" fill="#E6C8B0"/>
+  </g>
+
+  <!-- Red Holiday Cup with Whipped Cream (Far Left) -->
+  <g transform="translate(55, 165)">
+    <!-- Whipped Cream -->
+    <path d="M16,45 Q48,0 80,45 Z" fill="#FFFDF9"/>
+    <path d="M22,35 Q48,8 74,35 Z" fill="#F5EFE6"/>
+    <circle cx="48" cy="16" r="5" fill="#E89D25"/>
+    <circle cx="38" cy="28" r="3" fill="#D91E2E"/>
+    <circle cx="58" cy="26" r="3" fill="#E89D25"/>
+    <!-- Cup Body -->
+    <polygon points="12,45 84,45 73,185 23,185" fill="url(#redCup)"/>
+    <rect x="9" y="40" width="78" height="8" rx="4" fill="#FFFFFF"/>
+    <!-- Siren Circle -->
+    <circle cx="48" cy="112" r="20" fill="#00704A" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="48" cy="108" r="6" fill="#FFFFFF"/>
+    <path d="M38,124 C38,116 58,116 58,124 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Starbucks VIA Peppermint Mocha Box (Center) -->
+  <g transform="translate(262, 178)">
+    <rect x="0" y="0" width="96" height="158" rx="6" fill="#D62232"/>
+    <rect x="0" y="0" width="96" height="44" rx="6" fill="#B51725"/>
+    <circle cx="24" cy="22" r="13" fill="#00704A" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="43" y="25" fill="#FFFFFF" font-family="Georgia, serif" font-size="16" font-weight="bold">VIA</text>
+    <text x="48" y="36" fill="#FFD6D9" font-family="Arial" font-size="6" letter-spacing="1">INSTANT</text>
+    <text x="48" y="58" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="8.5" font-weight="bold">PEPPERMINT</text>
+    <text x="48" y="69" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="8.5" font-weight="bold">MOCHA</text>
+    <!-- Mug illustration -->
+    <circle cx="48" cy="106" r="26" fill="#FFFFFF"/>
+    <circle cx="48" cy="106" r="20" fill="#C48B5A"/>
+  </g>
+
+  <!-- Tall Red Pattern Cup (Right-Center) -->
+  <g transform="translate(390, 126)">
+    <path d="M18,52 Q52,-2 86,52 Z" fill="#FFFDF9"/>
+    <path d="M24,40 Q52,10 80,40 Z" fill="#F4EDE2"/>
+    <polygon points="14,52 90,52 78,215 26,215" fill="url(#redCup)"/>
+    <rect x="11" y="47" width="82" height="8" rx="4" fill="#FFFFFF"/>
+    <circle cx="52" cy="130" r="21" fill="#00704A" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="52" cy="126" r="6" fill="#FFFFFF"/>
+    <path d="M42,142 C42,134 62,134 62,142 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Green Cup with Chocolate Drizzle (Far Right) -->
+  <g transform="translate(475, 165)">
+    <path d="M16,45 Q48,2 80,45 Z" fill="#FFFDF9"/>
+    <path d="M26,34 Q48,22 70,34" fill="none" stroke="#5C3317" stroke-width="3"/>
+    <path d="M32,24 Q48,14 64,24" fill="none" stroke="#5C3317" stroke-width="2.5"/>
+    <polygon points="12,45 84,45 73,185 23,185" fill="url(#greenCup)"/>
+    <rect x="9" y="40" width="78" height="8" rx="4" fill="#FFFFFF"/>
+    <circle cx="48" cy="112" r="20" fill="#00704A" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="48" cy="108" r="6" fill="#FFFFFF"/>
+    <path d="M38,124 C38,116 58,116 58,124 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Green Starbucks Gift Card (Bottom Left) -->
+  <g transform="translate(150, 305) rotate(6)">
+    <rect x="0" y="0" width="95" height="60" rx="7" fill="#006241" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="47" y="25" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="9" font-weight="bold" letter-spacing="1.5">STARBUCKS</text>
+    <circle cx="20" cy="42" r="3" fill="#D91E2E"/>
+    <circle cx="72" cy="40" r="3" fill="#FFD700"/>
+    <circle cx="48" cy="46" r="2.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Holiday Bearista Gift Card (Bottom Right) -->
+  <g transform="translate(385, 306)">
+    <rect x="0" y="0" width="98" height="60" rx="7" fill="#FFF5F6" stroke="#E0C3C7" stroke-width="1"/>
+    <circle cx="48" cy="34" r="14" fill="#FFFFFF" stroke="#D91E2E" stroke-width="1.5"/>
+    <circle cx="48" cy="34" r="5" fill="#00704A"/>
+    <circle cx="75" cy="34" r="10" fill="#C68642"/>
+    <circle cx="22" cy="34" r="9" fill="#D91E2E"/>
+  </g>
+</svg>

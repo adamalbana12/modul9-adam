@@ -1,0 +1,229 @@
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+// Bootstrap Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* Custom Styles for Starbucks Indonesia Clone (starbucks.co.id) */
+:root {
+  --sb-green: #00704A;
+  --sb-dark-green: #004F32;
+  --sb-crimson: #B81224;
+  --sb-burgundy: #6D0812;
+  --sb-footer-bg: #F7F7F7;
+  --sb-text-dark: #1E3932;
+  --sb-text-muted: #555555;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* Top Green Accent Bar */
+.top-accent-bar {
+  height: 10px;
+  background-color: var(--sb-green);
+  width: 100%;
+}
+
+/* Navbar */
+.sb-navbar {
+  background-color: #ffffff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.sb-nav-link {
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #212529 !important;
+  text-transform: uppercase;
+  padding: 8px 14px !important;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.sb-nav-link:hover, .sb-nav-link:focus {
+  color: var(--sb-green) !important;
+}
+
+.find-store-btn {
+  font-size: 13px;
+  font-weight: 600;
+  color: #212529;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
+}
+
+.find-store-btn:hover {
+  color: var(--sb-green);
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+  border-radius: 0;
+  border-top: 3px solid var(--sb-green);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  padding: 12px 0;
+}
+
+.dropdown-item {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f8f5;
+  color: var(--sb-green);
+}
+
+/* Hero Banner Holiday ("Wrapped in Joy.") */
+.hero-holiday {
+  position: relative;
+  background: radial-gradient(circle at 65% 45%, #D91B2E 0%, #B31020 45%, #6A0610 100%);
+  min-height: 520px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(3rem, 5.5vw, 4.8rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Decorative sparkles & ribbons */
+.sparkle {
+  position: absolute;
+  color: rgba(255, 235, 220, 0.45);
+  pointer-events: none;
+  user-select: none;
+}
+
+.ribbon-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 280px;
+  max-width: 40vw;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.ribbon-right {
+  position: absolute;
+  top: 36%;
+  right: 0;
+  width: 260px;
+  max-width: 35vw;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.halal-badge-hero {
+  position: absolute;
+  bottom: 24px;
+  right: 42px;
+  z-index: 3;
+  opacity: 0.92;
+}
+
+/* Footer */
+.sb-footer {
+  background-color: var(--sb-footer-bg);
+  padding-top: 48px;
+  padding-bottom: 36px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.social-strip {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 36px;
+}
+
+.social-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #333333;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 14px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.social-icon-link:hover {
+  background-color: var(--sb-green);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.footer-heading {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #212529;
+  margin-bottom: 16px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  font-size: 13px;
+  color: var(--sb-text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-list a:hover {
+  color: var(--sb-green);
+}
+
+.legal-links {
+  margin-top: 42px;
+  padding-top: 18px;
+  font-size: 12px;
+  color: var(--sb-text-muted);
+}
+
+.legal-links a {
+  color: var(--sb-text-muted);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.legal-links a:hover {
+  color: #000000;
+}
+
+.copyright-text {
+  font-size: 11.5px;
+  color: #777777;
+  margin-top: 10px;
+}
